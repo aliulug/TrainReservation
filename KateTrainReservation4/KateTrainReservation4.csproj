@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ITrainList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reservation.cs" />
@@ -54,6 +55,8 @@
     <Compile Include="Seat.cs" />
     <Compile Include="TicketOffice.cs" />
     <Compile Include="TicketOfficeNUnitTest.cs" />
+    <Compile Include="TrainCoach.cs" />
+    <Compile Include="TrainForBooking.cs" />
     <Compile Include="UserInterface.cs" />
   </ItemGroup>
   <ItemGroup>
